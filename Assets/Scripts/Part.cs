@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Component : MonoBehaviour {
+public class Part : MonoBehaviour {
 	public int id;
-	public string componentName;
+	public int cost;
+	public string partName;
+	
 }
