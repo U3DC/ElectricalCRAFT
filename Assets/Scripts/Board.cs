@@ -7,7 +7,7 @@ public class Board : MonoBehaviour {
 
 	public void AddPart(Part part, Vector3 position)
 	{
-		position.y = position.y + 1;
+		position.y = position.y + 5;
 		parts[(int)position.x, (int)position.z] = Instantiate(part, position, Quaternion.identity);
 	}
 

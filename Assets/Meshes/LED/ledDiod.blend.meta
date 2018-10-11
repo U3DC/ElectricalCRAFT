@@ -16,6 +16,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: IronMaterial
+    second: {fileID: 2100000, guid: ff926b537f287d6498c22d3fac64d108, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: LedMaterial
     second: {fileID: 2100000, guid: 9cdb396122fde9a4088944d418399dc7, type: 2}
   materials:
